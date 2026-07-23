@@ -16,16 +16,13 @@
 
 ## Last Action
 
-**Date:** 2026-06-03
+**Date:** 2026-06-03 (session 2)
 **Branch:** master
-**Action:** Build, redesign, and push
+**Action:** BuduChop product expansion + content cleanup
 **What changed:**
-- Burnt orange (#E8501A) on deep black palette
-- Homepage: fixed full-screen split — YouTube player left, track selector right, info drawer
-- /buduchop: Kitchen knives & cutlass machetes brand extension (3 products: chef knife, Sinna cutlass, cleaver)
-- /merch: 3 products (BuduChop OG Hoodie, Sinna Tee, KRAFF Dad Cap)
-- React Router, WorkingDraftBanner on all routes
-- Prompts added to GEMINI-PROMPTS.md (Kr1–Kr3, BC1–BC3)
+- BuduChop 4th product added: "The BuduChop Knife Set" — 5-piece (chef, bread, santoku, paring, cleaver) + magnetic block
+- MindWave JA removed from all footers (3 pages) — copyright only
+- GEMINI-PROMPTS Kn4 added (1K Tote Bag), Kr total now 4 (meets minimum)
 **Schema migration:** none
 
 ---

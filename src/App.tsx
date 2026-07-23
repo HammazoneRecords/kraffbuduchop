@@ -164,8 +164,9 @@ function MusicPage() {
       {/* Bottom strip */}
       <div style={{ height: 44, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 24px', borderTop: `1px solid ${C.wire}`, background: C.pit }}>
         <span style={{ fontFamily: FF.ui, fontSize: 10, letterSpacing: 4, textTransform: 'uppercase', color: C.dim }}>kraffbuduchop.com</span>
-        <span style={{ fontFamily: FF.ui, fontSize: 10, letterSpacing: 3, textTransform: 'uppercase', color: C.dim }}>© 2025 Kraff · Built by <a href="https://mindwaveja.com" target="_blank" rel="noopener noreferrer" style={{ color: C.fire, textDecoration: 'none' }}>MindWave JA</a></span>
+        <span style={{ fontFamily: FF.ui, fontSize: 10, letterSpacing: 3, textTransform: 'uppercase', color: C.dim }}>© 2025 Kraff · </span>
       </div>
+      
       <WorkingDraftBanner artist="Kraff" />
     </div>
   );
@@ -189,6 +190,12 @@ const BUDU_BLADES = [
     name: 'The BuduChop Cleaver',
     sub: 'Heavy 7" kitchen cleaver. Through bone. Through anything.',
     tag: 'Limited',
+    price: 'TBA',
+  },
+  {
+    name: 'The BuduChop Knife Set',
+    sub: '5-piece set. Chef knife, bread knife, santoku, paring knife, cleaver. Magnetic block included.',
+    tag: 'Full Set',
     price: 'TBA',
   },
 ];
@@ -268,7 +275,7 @@ function BuduChopPage() {
           <p style={{ fontFamily: FF.display, fontSize: 24, letterSpacing: 4, color: C.ash, marginBottom: 2 }}>BUDU CHOP</p>
           <p style={{ fontFamily: FF.ui, fontSize: 10, letterSpacing: 3, textTransform: 'uppercase', color: C.dim }}>A Kraff Brand · kraffbuduchop.com/buduchop</p>
         </div>
-        <p style={{ fontFamily: FF.body, fontSize: 11, color: C.dim }}>© 2025 Kraff. Built by <a href="https://mindwaveja.com" target="_blank" rel="noopener noreferrer" style={{ color: C.fire, textDecoration: 'none' }}>MindWave JA</a>.</p>
+        <p style={{ fontFamily: FF.body, fontSize: 11, color: C.dim }}>© 2025 Kraff.</p>
       </footer>
       <WorkingDraftBanner artist="Kraff" />
     </div>
@@ -314,7 +321,7 @@ function MerchPage() {
       </section>
 
       <footer style={{ padding: '40px 48px 100px', borderTop: `1px solid ${C.wire}` }}>
-        <p style={{ fontFamily: FF.body, fontSize: 11, color: C.dim }}>© 2025 Kraff. Built by <a href="https://mindwaveja.com" target="_blank" rel="noopener noreferrer" style={{ color: C.fire, textDecoration: 'none' }}>MindWave JA</a>.</p>
+        <p style={{ fontFamily: FF.body, fontSize: 11, color: C.dim }}>© 2025 Kraff.</p>
       </footer>
       <WorkingDraftBanner artist="Kraff" />
     </div>
@@ -322,6 +329,8 @@ function MerchPage() {
 }
 
 /* ─── App ─────────────────────────────────────────────────────────────── */
+
+
 export default function App() {
   return (
     <BrowserRouter>
